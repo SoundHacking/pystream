@@ -2,12 +2,26 @@
 Python audio streaming connected to external devices network or serial
 
 # Python Audio devices
-https://python-sounddevice.readthedocs.io/
+[python-sounddevice documentation](https://python-sounddevice.readthedocs.io/)
+
+Install
+    pip install -r requirements.txt
+
+
+Play a wave file
+
+    pyhton wave.py
+
+Sample files from [examples](https://python-sounddevice.readthedocs.io/en/0.4.1/examples.html)
+
+List devices
+
+    python -m sounddevice
 
 ```shell
-    pip install souddevice
-    pip install numpy==1.19.3
-    pip install matplotlib
     python play_stream.py -i 7 -o 9
     python plot_input.py
 ```
+
+# Info
+* https://realpython.com/playing-and-recording-sound-python/
