@@ -94,7 +94,7 @@ try:
         device_info = sd.query_devices(args.device, 'input')
         args.samplerate = device_info['default_samplerate']
 
-    length = int(args.window * args.samplerate / (1000 * args.downsample))
+    length = int(args.window * args.samplerate / (50 * args.downsample))
     plotdata = np.zeros((length, len(args.channels)))
 
     fig, ax = plt.subplots()
