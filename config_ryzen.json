@@ -1,0 +1,10 @@
+{
+    "serial":{
+        "ID":"0x483:0x5740",
+        "baud":460800
+    },
+    "log":{
+        "logfile":"logger_serial.log",
+        "level":"Debug"
+    }
+}

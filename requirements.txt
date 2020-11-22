@@ -3,3 +3,4 @@ numpy==1.19.3
 sounddevice
 soundfile
 scipy
+pyserial
